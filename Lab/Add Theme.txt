@@ -1,0 +1,27 @@
+connect-SPOService -Url https://jpower4mvp-admin.sharepoint.com
+
+$themepalette =@{
+"themePrimary" = "#05615c";
+"themeLighterAlt" = "#d1eceb";
+"themeLighter" = "#abdbd8";
+"themeLight" = "#88c9c6";
+"themeTertiary" = "#69b8b4";
+"themeSecondary" = "#4ea6a2";
+"themeDarkAlt" = "#369590";
+"themeDark" = "#22847f";
+"themeDarker" = "#12726d";
+"neutralLighterAlt" = "#dad6d6";
+"neutralLighter" = "#d7d2d2";
+"neutralLight" = "#cecaca";
+"neutralQuaternaryAlt" = "#c0bcbc";
+"neutralQuaternary" = "#b7b3b3";
+"neutralTertiaryAlt" = "#b0acac";
+"neutralTertiary" = "#9aaadc";
+"neutralSecondary" = "#4a66b9";
+"neutralPrimaryAlt" = "#123498";
+"neutralPrimary" = "#00228a";
+"neutralDark" = "#001a69";
+"black" = "#00134d";
+"white" = "#e0dcdc";
+}
+Add-SPOTheme -Identity "MMC Theme" -Palette $themepalette -IsInverted $false

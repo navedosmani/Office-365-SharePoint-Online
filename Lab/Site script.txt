@@ -1,0 +1,17 @@
+$site_script1 = '
+ {
+     "$schema": "schema.json",
+         "actions": [
+             {
+                 "verb": "applyTheme",
+                 "themeName": "MMC Theme"
+            },
+           {
+            "verb": "setSiteLogo",
+             "url":"https://jpower4mvp.sharepoint.com/sites/MMCMySiteDesign/Shared%20Documents/Picture1.png"
+         }
+  ],
+      "bindata": { },
+     "version": 1
+ }
+ '
