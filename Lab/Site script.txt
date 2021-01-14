@@ -15,3 +15,8 @@ $site_script1 = '
      "version": 1
  }
  '
+
+
+Add-SPOSiteScript  -Title "ApplyTheme"  -Content $site_script1  -Description "MMC Theme"
+
+Add-SPOSiteDesign  -Title "MMC theme" -WebTemplate "68" -SiteScripts "ffe64910-7604-4cda-8343-b77b07f95c3a" -Description "Company Theme"
